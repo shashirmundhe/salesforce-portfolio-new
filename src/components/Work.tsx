@@ -7,11 +7,11 @@ gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 const projects = [
   {
-    title: "Hero Fincorp Car Loan (UCL & NCL)",
+    title: "Loan Origination & Approval System",
     category: "Salesforce Development",
-    tools: "Apex, LWC, Flows, REST API, Salesforce",
+    tools: "Salesforce, Apex, Lightning Web Components (LWC), SOQL, Salesforce Flows, Reports & Dashboards",
     description:
-      "Worked on Salesforce implementation for New Car Loan & Used Car Loan LOBs at Hero FinCorp. Developed Apex classes, Lightning Web Components, Flows, and integration services for underwriting, RC validation, dealer processes, and customer verification. Automated multiple loan lifecycle steps to reduce manual effort and improve loan processing turnaround time.",
+      "Developed a Salesforce-based Loan Origination & Approval System to automate customer onboarding, underwriting, loan approvals, and EMI tracking using Apex, Lightning Web Components (LWC), SOQL, and Flow Automation.",
   },
 
   {

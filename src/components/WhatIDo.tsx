@@ -154,14 +154,14 @@ Strong problem-solving, communication, and teamwork skills with a passion for co
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Blender</div>
-                <div className="what-tags">Zbrush</div>
-                <div className="what-tags">UI Design</div>
-                <div className="what-tags">Motion</div>
-                <div className="what-tags">Rigging</div>
-                <div className="what-tags">3D Animation</div>
-                <div className="what-tags">Character Design</div>
-                <div className="what-tags">Modelling</div>
+                <div className="what-tags">Salesforce Platform</div>
+                <div className="what-tags">Sales Cloud</div>
+                <div className="what-tags">Profiles & Permission Sets</div>
+                <div className="what-tags">Roles & Sharing Rules</div>
+                <div className="what-tags">Flow Builder</div>
+                <div className="what-tags">Validation Rules</div>
+                <div className="what-tags">SOQL Basics</div>
+                <div className="what-tags">Lightning App Builder</div>
               </div>
               <div className="what-arrow"></div>
             </div>
