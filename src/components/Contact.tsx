@@ -58,7 +58,7 @@ const Contact = () => {
           </div>
           <div className="contact-box">
             <h2>
-              Salceforce Developer <br /> by <span>Shashikant Mundhe</span>
+              Salesforce Developer <br /> by <span>Shashikant Mundhe</span>
             </h2>
             <h5>
               <MdCopyright /> 2026
