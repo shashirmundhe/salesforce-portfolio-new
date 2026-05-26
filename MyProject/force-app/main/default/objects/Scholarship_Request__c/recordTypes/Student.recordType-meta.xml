@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Student</fullName>
+    <active>true</active>
+    <label>Student</label>
+    <picklistValues>
+        <picklist>Scholarship_Rejection_Reasons__c</picklist>
+        <values>
+            <fullName>Duplicate Application</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Criteria Not Met</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Funds Exhausted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GPA Below Requirement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incomplete Application</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ineligible Major</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Late Submission</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residency Restriction</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Draft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Under Review</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Term__c</picklist>
+        <values>
+            <fullName>Fall 2026</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spring 2026</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Summer 2026%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

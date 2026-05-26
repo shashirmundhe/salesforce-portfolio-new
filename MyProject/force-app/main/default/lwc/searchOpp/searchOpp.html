@@ -1,0 +1,32 @@
+<template>
+    <lightning-card title="Search Opportunities">
+        
+        <div class="slds-m-around_large">
+            <lightning-input 
+                label="Search Opportunities" 
+                onchange={handleSearch} 
+                placeholder="Search here">
+            </lightning-input>
+        </div>
+
+        <div class="slds-m-around_large">
+
+          <!-- SHOW DATA -->
+<template if:true={fetchedOpps}>
+    <template for:each={fetchedOpps} for:item="opp">
+        <div key={opp.Id}>
+            <p>Opportunity Name: {opp.Name}</p>
+            <p>Opportunity Stage: {opp.StageName}</p>
+        </div>
+    </template>
+</template>
+
+<!-- SHOW NO DATA -->
+<template if:true={fetchedOpps}>
+    <p>No record found...!</p>
+</template>
+
+        </div>
+
+    </lightning-card>
+</template>

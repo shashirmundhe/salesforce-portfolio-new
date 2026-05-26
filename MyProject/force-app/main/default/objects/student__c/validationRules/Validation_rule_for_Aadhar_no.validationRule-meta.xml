@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_rule_for_Aadhar_no</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  NOT(ISBLANK( Aadhar_ID__c )),
+  NOT(REGEX( Aadhar_ID__c , &quot;^[2-9]{1}[0-9]{3}\\s?[0-9]{4}\\s?[0-9]{4}$&quot;))
+)</errorConditionFormula>
+    <errorMessage>Invalid Aadhar No</errorMessage>
+</ValidationRule>

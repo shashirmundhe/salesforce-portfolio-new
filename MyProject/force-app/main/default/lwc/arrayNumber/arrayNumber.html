@@ -1,0 +1,18 @@
+<template>
+    <lightning-card title="Array Live UI Example">
+
+        <div class="slds-p-around_medium">
+            <lightning-button 
+                label="Add" 
+                onclick={addNumber}>
+            </lightning-button>
+        </div>
+
+        <div class="slds-p-around_medium">
+            <template for:each={arr1} for:item="num">
+                <p key={num}>{num}</p>
+            </template>
+        </div>
+
+    </lightning-card>
+</template>

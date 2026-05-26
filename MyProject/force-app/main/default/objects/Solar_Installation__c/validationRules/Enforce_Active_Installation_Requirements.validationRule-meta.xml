@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enforce_Active_Installation_Requirements</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    ISPICKVAL(Installation_Status__c, &quot;Active&quot;),
+    OR(
+        ISBLANK(Commission_Date__c),
+        Total_Capacity_KW__c &lt;= 0
+    )
+)</errorConditionFormula>
+    <errorMessage>You cannot activate an installation without a valid Commission Date and a Total Capacity greater than 0.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,86 @@
+<template>
+    <lightning-card title="JavaScript Arrays">
+
+        <div class="slds-p-around_medium">
+
+            <!-- Top Actions -->
+            <div class="slds-m-bottom_medium">
+                <lightning-button 
+                    label="Add Element" 
+                    variant="brand"
+                    onclick={addElement}>
+                </lightning-button>
+
+                <lightning-button 
+                    label="Run For Loop" 
+                    variant="brand"
+                    onclick={callForLoop}
+                    class="slds-m-left_small">
+                </lightning-button>
+
+                <lightning-button 
+                    label="Run For Each Loop" 
+                    variant="brand"
+                    onclick={callForEachLoopShashiKant}
+                    class="slds-m-left_small">
+                </lightning-button>
+            </div>
+
+            <!-- Array Output -->
+            <p class="slds-text-heading_small slds-m-bottom_medium">
+                Array: {result}
+            </p>
+
+            <!-- JS Functions -->
+            <div class="slds-m-bottom_medium">
+                <lightning-button 
+                    label="Run HTML Loop" 
+                    variant="brand"
+                    onclick={runHTMLLoop}>
+                </lightning-button>
+
+                <lightning-button 
+                    label="JS Map" 
+                    variant="brand"
+                    onclick={runJsMap}
+                    class="slds-m-left_small">
+                </lightning-button>
+
+                <lightning-button 
+                    label="JS Filter" 
+                    variant="brand"
+                    onclick={runJsFilter}
+                    class="slds-m-left_small">
+                </lightning-button>
+
+                <lightning-button 
+                    label="JS Find" 
+                    variant="brand"
+                    onclick={runJsFindFunction}
+                    class="slds-m-left_small">
+                </lightning-button>
+
+                <lightning-button 
+                    label="JS Sort" 
+                    variant="brand"
+                    onclick={runSortFunction}
+                    class="slds-m-left_small">
+                </lightning-button>
+            </div>
+
+            <!-- Loop Output -->
+            <template if:true={enableForLoop}>
+                <div class="slds-box slds-theme_default">
+                    <template for:each={contacts} for:item="con">
+                        <div key={con.id} class="slds-m-bottom_small">
+                            <p><b>Name:</b> {con.fullName}</p>
+                            <p><b>Age:</b> {con.age}</p>
+                        </div>
+                    </template>
+                </div>
+            </template>
+
+        </div>
+
+    </lightning-card>
+</template>

@@ -1,0 +1,30 @@
+<template>
+    <lightning-card title="Name Component">
+
+        <div class="slds-p-around_medium">
+
+            <!-- Greeting -->
+            <h1 class="slds-text-heading_medium">
+                Hello {name}
+            </h1>
+
+            <!-- Buttons -->
+            <div class="slds-m-top_medium">
+                <lightning-button 
+                    label="Change Name"
+                    variant="brand"
+                    onclick={changeName}>
+                </lightning-button>
+
+                <lightning-button 
+                    label="Add Last Name"
+                    variant="brand"
+                    onclick={addlastname}
+                    class="slds-m-left_small">
+                </lightning-button>
+            </div>
+
+        </div>
+
+    </lightning-card>
+</template>

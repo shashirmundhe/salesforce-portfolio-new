@@ -1,0 +1,40 @@
+<template>
+    <lightning-card title="My First Component">
+
+        <div class="slds-p-around_medium">
+
+            <!-- Input Section -->
+            <lightning-input 
+                type="text" 
+                label="Enter Your Name" 
+                value={userName}
+                onchange={handleChange}>
+            </lightning-input>
+
+            <!-- Display Input -->
+            <template if:true={inputReceivedValue}>
+                <p class="slds-m-top_medium">
+                    You entered: <b>{inputReceivedValue}</b>
+                </p>
+            </template>
+
+            <!-- Action Button -->
+            <lightning-button 
+                variant="brand" 
+                label="Show Age" 
+                onclick={handleClick}
+                class="slds-m-top_medium">
+            </lightning-button>
+
+            <!-- Result Section -->
+            <template if:true={age}>
+                <div class="slds-m-top_medium slds-box slds-theme_default">
+                    <p><b>Name:</b> {inputReceivedValue}</p>
+                    <p><b>Age:</b> {age}</p>
+                </div>
+            </template>
+
+        </div>
+
+    </lightning-card>
+</template>

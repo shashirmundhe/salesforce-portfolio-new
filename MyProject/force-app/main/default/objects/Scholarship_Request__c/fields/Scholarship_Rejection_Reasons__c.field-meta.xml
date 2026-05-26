@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scholarship_Rejection_Reasons__c</fullName>
+    <label>Scholarship Rejection Reasons</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ineligible Major</fullName>
+                <default>false</default>
+                <label>Ineligible Major</label>
+            </value>
+            <value>
+                <fullName>GPA Below Requirement</fullName>
+                <default>false</default>
+                <label>GPA Below Requirement</label>
+            </value>
+            <value>
+                <fullName>Incomplete Application</fullName>
+                <default>false</default>
+                <label>Incomplete Application</label>
+            </value>
+            <value>
+                <fullName>Late Submission</fullName>
+                <default>false</default>
+                <label>Late Submission</label>
+            </value>
+            <value>
+                <fullName>Financial Criteria Not Met</fullName>
+                <default>false</default>
+                <label>Financial Criteria Not Met</label>
+            </value>
+            <value>
+                <fullName>Duplicate Application</fullName>
+                <default>false</default>
+                <label>Duplicate Application</label>
+            </value>
+            <value>
+                <fullName>Residency Restriction</fullName>
+                <default>false</default>
+                <label>Residency Restriction</label>
+            </value>
+            <value>
+                <fullName>Funds Exhausted</fullName>
+                <default>false</default>
+                <label>Funds Exhausted</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

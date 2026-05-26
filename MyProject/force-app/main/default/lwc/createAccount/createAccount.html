@@ -1,0 +1,32 @@
+<template>
+  <lightning-card title="Create Account">
+    <template if:true={runSpinner}>
+      <div class="spinner-overlay">
+        <lightning-spinner alternative-text="Loading" size="large"></lightning-spinner>
+      </div>
+    </template>
+    <div class="slds-m-around_large">
+      <div class="slds-grid slds-wrap slds-gutters">
+
+        <div class="slds-col slds-size_1-of-2">
+          <lightning-input label="Name" name="Name" onchange={handleNameChange} placeholder="Enter Account Name"
+            required></lightning-input>
+          <lightning-input label="Annual Revenue" name="AnnualRevenue" onchange={handleRevenueChange}
+            placeholder="Enter Revenue" value={AnnualRevenueValue}></lightning-input>
+        </div>
+
+        <div class="slds-col slds-size_1-of-2">
+          <lightning-input label="Type" name="Type" onchange={handleTypeChange} placeholder="Enter Type"
+            value={typeValueSwapnadip}></lightning-input>
+
+          <lightning-input label="Industry" name="Industry" onchange={handleIndustryChange} placeholder="Enter Industry"
+            required={isIndustryRequred}></lightning-input>
+        </div>
+
+      </div>
+    </div>
+    <div class="slds-m-around_large">
+      <lightning-button label="Save" variant="brand" onclick={handleSave}></lightning-button>
+    </div>
+  </lightning-card>
+</template>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Qulification__c</fullName>
+    <label>Qulification</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SSC</fullName>
+                <default>false</default>
+                <label>SSC</label>
+            </value>
+            <value>
+                <fullName>HSC</fullName>
+                <default>false</default>
+                <label>HSC</label>
+            </value>
+            <value>
+                <fullName>Degree</fullName>
+                <default>false</default>
+                <label>Degree</label>
+            </value>
+            <value>
+                <fullName>Diploma</fullName>
+                <default>false</default>
+                <label>Diploma</label>
+            </value>
+            <value>
+                <fullName>Mister&apos;s</fullName>
+                <default>false</default>
+                <label>Mister&apos;s</label>
+            </value>
+            <value>
+                <fullName>PHD Degree</fullName>
+                <default>false</default>
+                <label>PHD Degree</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

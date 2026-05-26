@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Standard__c</fullName>
+    <label>Standard</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1st – First</fullName>
+                <default>false</default>
+                <label>1st – First</label>
+            </value>
+            <value>
+                <fullName>2nd – Second</fullName>
+                <default>false</default>
+                <label>2nd – Second</label>
+            </value>
+            <value>
+                <fullName>3rd – Third</fullName>
+                <default>false</default>
+                <label>3rd – Third</label>
+            </value>
+            <value>
+                <fullName>4th – Fourth</fullName>
+                <default>false</default>
+                <label>4th – Fourth</label>
+            </value>
+            <value>
+                <fullName>5th – Fifth</fullName>
+                <default>false</default>
+                <label>5th – Fifth</label>
+            </value>
+            <value>
+                <fullName>6th – Sixth</fullName>
+                <default>false</default>
+                <label>6th – Sixth</label>
+            </value>
+            <value>
+                <fullName>7th – Seventh</fullName>
+                <default>false</default>
+                <label>7th – Seventh</label>
+            </value>
+            <value>
+                <fullName>8th – Eighth</fullName>
+                <default>false</default>
+                <label>8th – Eighth</label>
+            </value>
+            <value>
+                <fullName>9th – Ninth</fullName>
+                <default>false</default>
+                <label>9th – Ninth</label>
+            </value>
+            <value>
+                <fullName>10th – Tenth</fullName>
+                <default>false</default>
+                <label>10th – Tenth</label>
+            </value>
+            <value>
+                <fullName>11th – Eleventh</fullName>
+                <default>false</default>
+                <label>11th – Eleventh</label>
+            </value>
+            <value>
+                <fullName>12th – Twelfth</fullName>
+                <default>false</default>
+                <label>12th – Twelfth</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

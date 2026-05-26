@@ -1,0 +1,25 @@
+<template>
+    <lightning-card title="JavaScript Object">
+        <div class="slds-m-around_large">
+
+            <lightning-button 
+                class="slds-m-around_small"
+                variant="brand"
+                label="Run Object Functions"
+                onclick={runObjectMethods}>
+            </lightning-button>
+
+            <p>User Name = {resultObject.name}</p>
+            <p>User Age = {resultObject.age}</p>
+            <p>User Status = {resultObject.status}</p>
+
+            <lightning-button 
+                class="slds-m-around_small"
+                variant="brand"
+                label="Update"
+                onclick={updateObject}>
+            </lightning-button>    
+
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Appointment_Cancel_Reason__c</fullName>
+    <label>Appointment Cancel Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Inaccurate Booking</fullName>
+                <default>false</default>
+                <label>Inaccurate Booking</label>
+            </value>
+            <value>
+                <fullName>Incomplete Pre-requisites</fullName>
+                <default>false</default>
+                <label>Incomplete Pre-requisites</label>
+            </value>
+            <value>
+                <fullName>Facility Issue</fullName>
+                <default>false</default>
+                <label>Facility Issue</label>
+            </value>
+            <value>
+                <fullName>Doctors Are in Leave</fullName>
+                <default>false</default>
+                <label>Doctors Are in Leave</label>
+            </value>
+            <value>
+                <fullName>Scheduling Error</fullName>
+                <default>false</default>
+                <label>Scheduling Error</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

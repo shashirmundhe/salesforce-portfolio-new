@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Scholarship_Apprval_Rejsction_Status__c</columns>
+    <columns>Collage_Name__c</columns>
+    <columns>Status__c</columns>
+    <columns>Scholarship_Request_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Scholarship_Request_Name__c</field>
+        <operation>equals</operation>
+        <value>panjabrao deshmukh scholarship</value>
+    </filters>
+    <label>All</label>
+</ListView>

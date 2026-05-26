@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Appliy_For__c</fullName>
+    <label>Appliy For</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BE IT</fullName>
+                <default>false</default>
+                <label>BE IT</label>
+            </value>
+            <value>
+                <fullName>BE Mech</fullName>
+                <default>false</default>
+                <label>BE Mech</label>
+            </value>
+            <value>
+                <fullName>BSc</fullName>
+                <default>false</default>
+                <label>BSc</label>
+            </value>
+            <value>
+                <fullName>BSA</fullName>
+                <default>false</default>
+                <label>BSA</label>
+            </value>
+            <value>
+                <fullName>BBA CA</fullName>
+                <default>false</default>
+                <label>BBA CA</label>
+            </value>
+            <value>
+                <fullName>BA</fullName>
+                <default>false</default>
+                <label>BA</label>
+            </value>
+            <value>
+                <fullName>BE Civil</fullName>
+                <default>false</default>
+                <label>BE Civil</label>
+            </value>
+            <value>
+                <fullName>MCA</fullName>
+                <default>false</default>
+                <label>MCA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>
